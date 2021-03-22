@@ -128,7 +128,8 @@ fun PaymentCard(
 
                         Text(
                             text = initial.chunked(4).joinToString(" "),
-                            style = MaterialTheme.typography.h4,
+                            style = MaterialTheme.typography.h5,
+                            maxLines = 1,
                             color = Color.White,
                             modifier = Modifier
                                 .animateContentSize(spring())
